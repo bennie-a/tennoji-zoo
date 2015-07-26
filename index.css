@@ -1,0 +1,300 @@
+@charset "utf-8";
+#main_image {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	height: 462px;
+	/* [disabled]width: 910px; */
+	clear: left;
+	/* [disabled]padding-left: 25px; */
+	text-align: center;
+}
+#event {
+	background-image: url(image/event_footer.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 33px;
+	margin-bottom: 30px;
+}
+#main_image li {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#news h2 {
+	background-image: url(image/news_title.gif);
+	background-repeat: no-repeat;
+	height: 55px;
+}
+#center_contents h2 {
+	background-image: url(image/event_header.gif);
+	background-repeat: no-repeat;
+	height: 55px;
+}
+
+
+#news {
+	float: left;
+	width: 330px;
+	/* [disabled]padding-right: 10px; */
+	/* [disabled]padding-left: 25px; */
+	background-image: url(image/news_footer.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	overflow: hidden;
+	padding-bottom: 33px;
+}
+.news_article {
+	background-image: url(image/news_contents.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+#news_contents a {
+	text-decoration: none;
+}
+#event a {
+	text-decoration: none;
+}
+#news_contents a:link {
+	color: #000;
+}
+#event a:link {
+	color: #000;
+}
+
+
+#news_contents {
+	background-image: url(image/news_background.gif);
+	background-repeat: repeat-y;
+	background-position: bottom;
+	overflow: hidden;
+}
+#display {
+	background-image: url(image/event_contents.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#blog h2 {
+	background-image: url(image/blog_header.gif);
+	background-repeat: no-repeat;
+}
+#blog {
+	overflow: hidden;
+	background-image: url(image/blog_footer.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 33px;
+}
+
+
+#art {
+	background-image: url(image/event_contents.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+
+#change_root {
+	background-image: url(image/news_contents.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+	overflow: hidden;
+}
+
+#under_construction {
+	background-image: url(image/news_contents.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+
+#menu {
+	float: left;
+	width: 210px;
+	padding-left: 10px;
+}
+#center_contents {
+	float: left;
+	width: 330px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+.float_left {
+	float: left;
+}
+#external_links p {
+	float: left;
+	padding-left: 24px;
+	padding-bottom: 30px;
+	/* [disabled]padding-top: 32px; */
+}
+
+.display_none {
+	display: none;
+}
+.event_article_contents {
+	background-image: url(image/event_article_footer.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.article_pic {
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.article_contents {
+	padding-right: 20px;
+	padding-left: 18px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+#blog_article {
+	text-align: center;
+	background-image: url(image/blog_contents.gif);
+	background-repeat: repeat-y;
+}
+
+.article_header {
+	font-size: 14px;
+	text-align: center;
+}
+.event_update {
+	text-align: center;
+	border-top-width: 3px;
+	border-top-style: dashed;
+	margin-right: 8px;
+	margin-left: 8px;
+	border-top-color: #006A6C;
+	border-bottom-color: #006A6C;
+	border-bottom-width: 3px;
+	border-bottom-style: dashed;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.news_update {
+	text-align: center;
+	border-top-width: 3px;
+	border-top-style: dashed;
+	margin-right: 8px;
+	margin-left: 8px;
+	border-top-color: #E73562;
+	border-bottom-color: #E73562;
+	border-bottom-width: 3px;
+	border-bottom-style: dashed;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.blog_update {
+	text-align: center;
+	border-top-width: 3px;
+	border-top-style: dashed;
+	margin-right: 8px;
+	margin-left: 8px;
+	border-top-color: #4EA24E;
+	border-bottom-color: #4EA24E;
+	border-bottom-width: 3px;
+	border-bottom-style: dashed;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.continue {
+	font-weight: bold;
+	background-image: url(image/blog_footer.gif);
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 0px;
+}
+.blog_contents {
+	background-image: url(image/blog_contents.gif);
+	background-repeat: repeat-y;
+}
+#map_info h2 {
+	background-image: url(image/info_header.gif);
+	background-repeat: no-repeat;
+	height: 40px;
+}
+#map_info {
+	background-image: url(image/info_footer.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#service_info h2 {
+	background-image: url(image/operation_header.gif);
+	background-repeat: no-repeat;
+	height: 46px;
+	margin-top: 20px;
+}
+#service_info {
+	background-image: url(image/operation_footer.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 28px;
+	margin-bottom: 20px;
+}
+.banner_padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#map_info ul  {
+	background-image: url(image/info_contents.gif);
+	background-repeat: no-repeat;
+	display: block;
+	overflow: hidden;
+}
+
+#service_info ul li {
+	height: 30px;
+	background-image: url(image/operation_contents.gif);
+	padding-top: 5px;
+	background-repeat: repeat-y;
+	border-bottom-width: 3px;
+	border-bottom-style: dashed;
+	border-bottom-color: #7B3F11;
+}
+#map_info ul li {
+	height: 30px;
+	background-image: url(image/info_contents.gif);
+	padding-bottom: 5px;
+	background-repeat: repeat-y;
+	border-bottom-width: 3px;
+	padding-right: 6px;
+}
+.map_info_header {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	height: 35px;
+}
+.map_info_border {
+	border-bottom-width: 3px;
+	border-bottom-style: dashed;
+	border-bottom-color: #7B3F11;
+	padding-bottom: 3px;
+}
+
+#footer_text {
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	margin-right: auto;
+	margin-left: auto;
+	width: 460px;
+}
+#event_background {
+	background-image: url(image/event_background.gif);
+	background-repeat: repeat-y;
+}
