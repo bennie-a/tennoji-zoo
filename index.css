@@ -194,10 +194,16 @@
 	background-image: url(image/blog_background.gif);
 	background-repeat: repeat-y;
 }
+
+#menu h3 {
+    padding-left: 5px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
 #map_info h2 {
 	background-image: url(image/info_header.gif);
 	background-repeat: no-repeat;
-	height: 40px;
+    height: 47px;
 }
 #map_info {
 	background-image: url(image/info_footer.gif);
@@ -206,6 +212,11 @@
 	padding-bottom: 30px;
 	margin-bottom: 20px;
 	overflow: hidden;
+}
+
+#map_list {
+    background-image: url("image/info_background.gif");
+    background-repeat: repeat-y;
 }
 #service_info h2 {
 	background-image: url(image/operation_header.gif);
@@ -226,12 +237,18 @@
 }
 
 #map_info ul  {
-	background-image: url(image/info_contents.gif);
-	background-repeat: no-repeat;
+    padding-left: 5px;
 	display: block;
 	overflow: hidden;
 }
 
+#map_info ul li {
+	border-bottom-width: 3px;
+    background: url("image/subnavi_icon.png") no-repeat left 45%;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 6px;
+}
 #service_info ul li {
 	height: 30px;
 	background-image: url(image/operation_contents.gif);
@@ -241,25 +258,14 @@
 	border-bottom-style: dashed;
 	border-bottom-color: #7B3F11;
 }
-#map_info ul li {
-	height: 30px;
-	background-image: url(image/info_contents.gif);
-	padding-bottom: 5px;
-	background-repeat: repeat-y;
-	border-bottom-width: 3px;
-	padding-right: 6px;
-}
-.map_info_header {
-	padding-top: 20px;
-	padding-bottom: 0px;
-	height: 35px;
-}
+/*
 .map_info_border {
 	border-bottom-width: 3px;
 	border-bottom-style: dashed;
 	border-bottom-color: #7B3F11;
 	padding-bottom: 3px;
 }
+*/
 
 #footer_text {
 	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
